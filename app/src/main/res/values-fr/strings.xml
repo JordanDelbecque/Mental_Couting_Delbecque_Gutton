@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculMental</string>
+    <string name="game">Jeu</string>
+    <string name="score">Score</string>
+    <string name="success">Succès</string>
+    <string name="operation">Opération</string>
+    <string name="fail">Raté</string>
+    <string name="validate">Valider</string>
+    <string name="main">Accueil</string>
+    <string name="answer">Réponse</string>
+    <string name="previous">Précédent</string>
+    <string name="LastOper">25+71</string>
+    <string name="TxtLastOper">Dernière opération avec le bon résultat :</string>
+    <string name="PercentVIctory">57%</string>
+    <string name="TxtPercentVictory">Pourcentage de victoire :</string>
+    <string name="NbOperation">456456</string>
+    <string name="TxtNbOperation">Nombre d Opérations :</string>
+    <string name="ScorePage">Allez à la page des scores</string>
+    <string name="EraseScore">Effacer le score</string>
+    <string name="write_here">Ecrivez ici</string>
+    <string name="type_here">Ecrivez ici</string>
+</resources>

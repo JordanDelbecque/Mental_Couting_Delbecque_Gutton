@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MentalCounting</string>
+    <string name="game">Game</string>
+    <string name="score">Score</string>
+    <string name="success">Success</string>
+    <string name="operation">Operation</string>
+    <string name="fail">Fail</string>
+    <string name="validate">Validate</string>
+    <string name="main">Main</string>
+    <string name="answer">Answer</string>
+    <string name="previous">Previous</string>
+    <string name="LastOper">25+71</string>
+    <string name="TxtLastOper">Last operation with the good result </string>
+    <string name="PercentVIctory">57%</string>
+    <string name="TxtPercentVictory">Percentage of victory</string>
+    <string name="NbOperation">456456</string>
+    <string name="TxtNbOperation">Number of Operations </string>
+    <string name="ScorePage">Go to score page</string>
+    <string name="EraseScore">Erase score</string>
+    <string name="write_here">Write Here</string>
+    <string name="type_here">Type here</string>
+</resources>

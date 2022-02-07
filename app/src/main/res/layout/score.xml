@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/TxtNbOperation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@color/grey_bgr"
+            android:gravity="center_horizontal"
+            android:text="@string/TxtNbOperation"
+            android:textColor="@color/txt_color" />
+
+        <TextView
+            android:id="@+id/NbOperation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:background="@color/grey_bgr"
+            android:gravity="center_horizontal"
+            android:text="@string/NbOperation"
+            android:textColor="@color/txt_color" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/TxtPercentVictory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@color/grey_bgr"
+            android:gravity="center_horizontal"
+            android:text="@string/TxtPercentVictory"
+            android:textColor="@color/txt_color" />
+
+        <TextView
+            android:id="@+id/PercentVictory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:background="@color/grey_bgr"
+            android:gravity="center_horizontal"
+            android:text="@string/PercentVIctory"
+            android:textColor="@color/txt_color" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/TxtLastOper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@color/grey_bgr"
+            android:gravity="center_horizontal"
+            android:text="@string/TxtLastOper"
+            android:textColor="@color/txt_color" />
+
+        <TextView
+            android:id="@+id/LastOper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:background="@color/grey_bgr"
+            android:gravity="center_horizontal"
+            android:text="@string/LastOper"
+            android:textColor="@color/txt_color" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3" />
+
+            <Button
+                android:id="@+id/previous_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/grey_button"
+                android:text="@string/previous"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
