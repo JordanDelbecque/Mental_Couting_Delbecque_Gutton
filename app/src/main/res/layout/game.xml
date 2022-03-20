@@ -32,22 +32,34 @@
             android:layout_weight="0.15" />
 
         <TextView
-            android:id="@+id/SucessFail"
+            android:id="@+id/Sucess"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.05"
             android:gravity="center_horizontal"
             android:text="@string/success"
-            android:textColor="@color/green_success" />
+            android:textColor="@color/green_success"
+            android:visibility="gone" />
 
         <TextView
-            android:id="@+id/sucessFail"
+            android:id="@+id/Fail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.05"
             android:gravity="center_horizontal"
             android:text="@string/fail"
-            android:textColor="@color/red_fail" />
+            android:textColor="@color/red_fail"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/noValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:gravity="center_horizontal"
+            android:text="@string/noValue"
+            android:textColor="@color/red_fail"
+            android:visibility="gone" />
 
         <Space
             android:layout_width="match_parent"
@@ -62,11 +74,10 @@
             android:background="@color/grey_bgr"
             android:ems="10"
             android:gravity="center"
+            android:hint="@string/type_here"
             android:importantForAutofill="no"
             android:inputType="number"
-            android:text="@string/answer"
-            android:textColor="@color/txt_color"
-            android:hint="@string/type_here" />
+            android:textColorHint="@color/txt_color" />
 
 
         <Space

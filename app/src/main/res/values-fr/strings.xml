@@ -20,4 +20,5 @@
     <string name="EraseScore">Effacer le score</string>
     <string name="write_here">Ecrivez ici</string>
     <string name="type_here">Ecrivez ici</string>
+    <string name="noValue">Aucune valeur !</string>
 </resources>

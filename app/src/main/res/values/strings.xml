@@ -19,4 +19,6 @@
     <string name="EraseScore">Erase score</string>
     <string name="write_here">Write Here</string>
     <string name="type_here">Type here</string>
+    <string name="operation_template" translatable="false">%1$d %2$s %3$d </string>
+    <string name="noValue">No value !</string>
 </resources>
